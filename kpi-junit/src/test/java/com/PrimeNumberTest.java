@@ -5,8 +5,8 @@ public class PrimeNumberTest {
 @Test
 public void evaluatesExpression() {
 			 PrimeNumber n=new PrimeNumber();
-			boolean s=n.isPrime(4);
-			 assertEquals(false, s);
+			boolean s=n.isPrime(5);
+			 assertEquals(true, s);
 		 }
 		 
 		        
